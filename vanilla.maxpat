@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 733.0 ],
+		"rect" : [ 34.0, 79.0, 736.0, 429.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -293,16 +293,16 @@
 				"box" : 				{
 					"fontsize" : 48.0,
 					"id" : "obj-43",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 736.0, 588.5, 311.0, 114.0 ],
+					"patching_rect" : [ 736.0, 588.5, 311.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ -8.75, 30.0, 418.0, 114.0 ],
 					"style" : "",
-					"text" : "dm.harmony engine",
+					"text" : "vanilla harmony engine",
 					"textcolor" : [ 0.58525, 0.603414, 0.598266, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1909,11 +1909,11 @@
  ],
 		"parameters" : 		{
 			"obj-29" : [ "live.dial[4]", "Q", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
 			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
 			"obj-19" : [ "live.gain~", "master", 0 ],
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ],
 			"obj-16" : [ "live.dial[2]", "freq", 0 ],
 			"obj-26" : [ "live.dial[3]", "amp", 0 ]
 		}
