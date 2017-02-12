@@ -1,7 +1,7 @@
 # vanilla
 Vanilla is a vocal harmonizer built entirely with native MaxMSP and MIDI, inspired by <a href="">this incredible performance of "Danny Boy" by Jacob Collier</a>.
 
-It seemed a little backwards to me at the time (and in fairness still does) that Jacob Collier gets to have proprietary harmonizer made by the MIT Media Lab, but nobody else does. That's why vanilla is open source and completely free. 
+It seemed a little backwards to me at the time (and still does) that Jacob Collier gets to have proprietary harmonizer made by the MIT Media Lab, while the rest of us don't have access to anything similar. That's why vanilla is open source and completely free. 
 
 The app is currently in alpha, so contributions are welcomed.
 <br>
