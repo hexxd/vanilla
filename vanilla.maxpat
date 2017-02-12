@@ -199,7 +199,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 291.0, 116.0, 72.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 1"
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -1909,13 +1909,13 @@
  ],
 		"parameters" : 		{
 			"obj-29" : [ "live.dial[4]", "Q", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
-			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-19" : [ "live.gain~", "master", 0 ],
-			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-22" : [ "live.dial", "harm", 0 ],
+			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
 			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ]
+			"obj-26" : [ "live.dial[3]", "amp", 0 ],
+			"obj-19" : [ "live.gain~", "master", 0 ],
+			"obj-45" : [ "live.numbox", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
