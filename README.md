@@ -7,7 +7,7 @@ The app is currently in alpha, so contributions are welcomed.
 <br>
 # Getting Started
 ### Configuration
-1. For those who want to use MaxMSP, download the repository. If you don't own Max or are unfamiliar with it, you can also download the .app file <a href="https://www.dropbox.com/s/paugt8b0juc0lla/vanilla2.7.16.zip?dl=0" target="_blank">here</a>. There currently is no .exe version (if you own MaxMSP for Windows, become a contributor and compile one!).
+1. For those who want to use MaxMSP, download the repository. If you don't own Max or are unfamiliar with it, you can also download the .app file <a href="https://www.dropbox.com/s/7w1t4zt73pfydyf/vanilla2.12.17.zip?dl=0" target="_blank">here</a>. There currently is no .exe version (if you own MaxMSP for Windows, become a contributor and compile one!).
 
 2. Connect a USB MIDI keyboard, audio interface and microphone.
 
