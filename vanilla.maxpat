@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 736.0, 429.0 ],
+		"rect" : [ 34.0, 113.0, 1372.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1145.0, 522.0, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "this is a test comment to see if github actually works lol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -1416,6 +1429,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1425,6 +1439,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1434,6 +1449,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1470,6 +1486,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1479,6 +1496,7 @@
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1542,6 +1560,7 @@
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1551,6 +1570,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1614,6 +1634,7 @@
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1623,6 +1644,7 @@
 					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1632,6 +1654,7 @@
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1641,6 +1664,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1659,6 +1683,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1668,6 +1693,7 @@
 					"destination" : [ "obj-40", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1695,6 +1721,7 @@
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -1704,6 +1731,7 @@
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -1767,6 +1795,7 @@
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -1776,6 +1805,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1785,6 +1815,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -1794,6 +1825,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1875,6 +1907,7 @@
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1884,6 +1917,7 @@
 					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1908,14 +1942,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ],
 			"obj-29" : [ "live.dial[4]", "Q", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
 			"obj-19" : [ "live.gain~", "master", 0 ],
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ]
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ],
+			"obj-16" : [ "live.dial[2]", "freq", 0 ],
+			"obj-26" : [ "live.dial[3]", "amp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1925,7 +1959,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gizmo_loadme.maxpat",
+				"name" : "gizmo_loadme_modified.maxpat",
 				"bootpath" : "C74:/help/msp",
 				"type" : "JSON",
 				"implicit" : 1
