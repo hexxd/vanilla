@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 113.0, 1372.0, 733.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,19 +37,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-65",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1145.0, 522.0, 150.0, 47.0 ],
-					"style" : "",
-					"text" : "this is a test comment to see if github actually works lol"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -1942,14 +1929,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "live.dial[4]", "Q", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-26" : [ "live.dial[3]", "amp", 0 ],
 			"obj-19" : [ "live.gain~", "master", 0 ],
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
-			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-22" : [ "live.dial", "harm", 0 ],
 			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ]
+			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-29" : [ "live.dial[4]", "Q", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
