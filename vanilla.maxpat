@@ -945,7 +945,7 @@
 					"patching_rect" : [ 775.0, 296.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 410.0, 171.0, 318.0, 156.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 5571.841797, 0.961105, 0.829255, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 9448.819336, 0.968504, 0.763401, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -2112,15 +2112,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "live.dial[4]", "Q", 0 ],
-			"obj-69::obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
-			"obj-19" : [ "live.gain~", "master", 0 ],
-			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-76" : [ "live.dial[5]", "filter quotient", 0 ],
 			"obj-16" : [ "live.dial[2]", "freq", 0 ],
 			"obj-26" : [ "live.dial[3]", "amp", 0 ],
-			"obj-76" : [ "live.dial[5]", "filter quotient", 0 ]
+			"obj-69::obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-19" : [ "live.gain~", "master", 0 ],
+			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-29" : [ "live.dial[4]", "Q", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
