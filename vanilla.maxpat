@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 2,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -677,6 +677,8 @@
 					"fontface" : 0,
 					"hcurvecolor" : [ 0.211765, 0.756863, 1.0, 1.0 ],
 					"id" : "obj-14",
+					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"markercolor" : [ 0.58525, 0.603414, 0.598266, 1.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
@@ -687,7 +689,7 @@
 					"patching_rect" : [ 775.0, 296.0, 256.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 410.0, 171.0, 318.0, 156.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 5571.841797, 0.961105, 0.829255, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 20000.0, 0.961105, 0.829255, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -1135,6 +1137,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "list" ],
 					"patching_rect" : [ 86.0, 296.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"correction_ambience_threshold" : [ 0.3 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 1,
@@ -1929,14 +1932,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
-			"obj-29" : [ "live.dial[4]", "Q", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
-			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-19" : [ "live.gain~", "master", 0 ],
-			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ]
+			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-26" : [ "live.dial[3]", "amp", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ],
+			"obj-29" : [ "live.dial[4]", "Q", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-19" : [ "live.gain~", "master", 0 ],
+			"obj-45" : [ "live.numbox", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
