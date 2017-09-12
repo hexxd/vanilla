@@ -38,32 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1203.0, 455.0, 65.0, 22.0 ],
-					"style" : "",
-					"text" : "zsa.mfcc~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-68",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1130.0, 455.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "zsa.mel~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1048,7 +1022,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1274,7 +1247,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 704.0, 142.0, 186.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ dm.harmvoice 10 @steal 1"
+					"text" : "poly~ dm.harmvoice 14 @steal 1"
 				}
 
 			}
@@ -1825,14 +1798,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "live.dial[4]", "Q", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-16" : [ "live.dial[2]", "freq", 0 ],
+			"obj-26" : [ "live.dial[3]", "amp", 0 ],
 			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
 			"obj-19" : [ "live.gain~", "master", 0 ],
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ]
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ],
+			"obj-29" : [ "live.dial[4]", "Q", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1867,14 +1840,6 @@
 				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.mel~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
