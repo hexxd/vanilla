@@ -38,6 +38,103 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 14,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 360.5, 498.0, 428.5, 98.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 100.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, "MAutoPitch.auinfo", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"annotation_name" : "",
+						"parameter_enable" : 1
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "MAutoPitch.component",
+							"plugindisplayname" : "MAutoPitch",
+							"pluginsavedname" : "MAutoPitch",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+							"slidervisibility" : [ 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"blob" : "694.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDBrAdZ2HUs8l1v.g+N+Jh7WWGXGdWJIUczlIzfVTCa8ylvAwZF6rDGJze88LDVBAMoYEkb9444Ne2kKw69C6jN6grbgV4SXsoDGPEqWKTa8IElMecD49fVdyenvnWHLwI4fwfj4NSR3JEHmqWC9jYvFiyWbdUrMwPblnUlLsThg8IEekDV6Sv.+8eNMR7A3hmyHJ8NFsaE3S77iHA8NDZ1qQoRgw.YVFlOwcX+AMgcsvDm47CyBe4aRc7usn9jttDmTdFeGfBsY8xBE7HjZRNkC2PEkBko2eodDuEazYSvRfmlaoYWSi90vkriuAFLkpgEpy1wUlnDwFjg1tGa7P1XW7hNplre.PZoz7qOHr1Byf+TfuPNhEVcFgpFCq8.pKs+3wiYcqqJxvWIjhO3lSubqmuKSxf7DsrQk+lXssOwnH3BTAXlpVCGNIJJlKwplUaUB9r1XItnY4wzycmecYrZnKi02kD3cNlrN3D0YS2JytUl8pL6WYNnxbXo4dgtH+Y3f4Lb0bmkORrqPxMvhL8Vr9ryqagyN1DvV+yvQH6lZCu1s1hqAzbaqJOvapZdm.uWJL1GmZcyC7hzEYwfs6sQHQcm9PhRPEctHA8Hsv7tc2R7aEoNymDhKJMLD6ZhbwJIT5zTEJslpA89mpdmuG1fCRKcdPllvsib8o1E4F26bIIt57sqlQtLW+OBco+1BsrA0Bst4+FAs9D.73bNJA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VBbG.......f.A.........PC..................f.7A"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "MAutoPitch",
+									"origin" : "MAutoPitch.component",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "MAutoPitch.component",
+										"plugindisplayname" : "MAutoPitch",
+										"pluginsavedname" : "MAutoPitch",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+										"slidervisibility" : [ 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+										"blob" : "694.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDBrAdZ2HUs8l1v.g+N+Jh7WWGXGdWJIUczlIzfVTCa8ylvAwZF6rDGJze88LDVBAMoYEkb9444Ne2kKw69C6jN6grbgV4SXsoDGPEqWKTa8IElMecD49fVdyenvnWHLwI4fwfj4NSR3JEHmqWC9jYvFiyWbdUrMwPblnUlLsThg8IEekDV6Sv.+8eNMR7A3hmyHJ8NFsaE3S77iHA8NDZ1qQoRgw.YVFlOwcX+AMgcsvDm47CyBe4aRc7usn9jttDmTdFeGfBsY8xBE7HjZRNkC2PEkBko2eodDuEazYSvRfmlaoYWSi90vkriuAFLkpgEpy1wUlnDwFjg1tGa7P1XW7hNplre.PZoz7qOHr1Byf+TfuPNhEVcFgpFCq8.pKs+3wiYcqqJxvWIjhO3lSubqmuKSxf7DsrQk+lXssOwnH3BTAXlpVCGNIJJlKwplUaUB9r1XItnY4wzycmecYrZnKi02kD3cNlrN3D0YS2JytUl8pL6WYNnxbXo4dgtH+Y3f4Lb0bmkORrqPxMvhL8Vr9ryqagyN1DvV+yvQH6lZCu1s1hqAzbaqJOvapZdm.uWJL1GmZcyC7hzEYwfs6sQHQcm9PhRPEctHA8Hsv7tc2R7aEoNymDhKJMLD6ZhbwJIT5zTEJslpA89mpdmuG1fCRKcdPllvsib8o1E4F26bIIt57sqlQtLW+OBco+1BsrA0Bst4+FAs9D.73bNJA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VBbG.......f.A.........PC..................f.7A"
+									}
+,
+									"fileref" : 									{
+										"name" : "MAutoPitch",
+										"filename" : "MAutoPitch_20170616.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "f4becd572c3ca927be0df6abe47a107d"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "vst~ MAutoPitch.auinfo",
+					"varname" : "vst~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -211,6 +308,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.0, 621.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -224,6 +325,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 2.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -449,10 +554,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 424.0, 305.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in~ 2"
 				}
@@ -570,6 +671,13 @@
 					"destination" : [ "obj-29", 0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -694,7 +802,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
+					"order" : 0,
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 3 ],
+					"order" : 1,
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -722,7 +846,7 @@
 			}
  ],
 		"parameters" : 		{
-
+			"obj-47" : [ "vst~", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -736,6 +860,13 @@
 				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"patcherrelativepath" : "../../../Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MAutoPitch_20170616.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../Documents/Max 7/Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
  ],
