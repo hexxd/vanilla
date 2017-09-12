@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 692.0, 226.0, 33.0, 22.0 ],
+					"style" : "",
+					"text" : "* -1."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-60",
 					"maxclass" : "flonum",
@@ -89,7 +102,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 484.0, 533.5, 301.0, 82.0 ],
+					"patching_rect" : [ 374.5, 541.5, 680.0, 220.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 100.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, "MAutoPitch.component", ";" ],
 					"saved_attribute_attributes" : 					{
@@ -126,7 +139,7 @@
 							"isbase64" : 1,
 							"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
 							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "553.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDA3HdZWlTAKkvv.Qu6WQmbUAZJBnyPwQQwwQPYrndN1tPyXHolt0A3q2Msfsh4Pm2tuMa1212vq1rV48MXykFcHi21m4A5XShTuJjUfKacA6pQmLb10EnYtDiSyADIxbuwoBsFTyLIPHaJrD8N06E4pTj4M1nQqQon1dmV7gBRBYTiu+0Ghj6f.J3r5v6D4aOjZlXyzIOeixD+oiJj0Mf4kIrh0.BV2LrnPC2BYXZYG+GUTFr+w9k5V5SLZrioARjk6n4+klt2QWwt8c.CYMe7IF6ZgFiRkKIlVcaeY4YPeduKZT1i.jsuz7+9Pj1lXguJn06VRXMYj5FL7188C76Q8l2sYUQn3CoRtSfk+pZNuKRsPdpQcjxeWl31Ss39T14TI.9fNA1TVUTrPQxl23rO4SFDpKYw1rpn2NXRFDvuLvmMZXUK4cH+QELnF1sFddMrWMreMbvd32RSQ9SvFrJcsKxwGIWWnDHL2ZVQ5y49VAUW73DN8OkrPtfFVQWnSaGkZlaUUh57eW9nS9Ayg8B2HA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VAnN.......f.A.........PC..................P.uC"
+							"blob" : "562.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDAbIdZWlTAKkvv.Qu6WQmbUAaZATlghihhiifxXQ4brcglwPRMcqC3WuannsB4Pm2tu2tI612fq1rV48EXKjFcDi21m4A5DSpTuJhUhKacI6pgmLX50knYlDSxJ.DIxBuQYBsFTSMoPDaBrD8N06E4pLj4MxnQqQon1dmV7tBRiXTiu+0GhkeCATvY0g2IJ19apohMSF+7MJSxGNpHVX.yKWXEqADrt2v7RMbKjiY653QTw4v9K6OpaoOInwNhdPh7BGM++zTcGThc6B.iXMu7wF6ZgFiyjKIlV8a2u5zwuSCUOBP9dkE++dnQarE9rj1taiXcZG5y8Cn561qWSURcCU7187C76Rp3ggMTEih2kJ42Bb2eslO84YVnHynNXIrPl5VYs39T1YjD.ePmBa1oJNQnnM.uwYexmLHTKY917pn290ubQ.uefOa3fpVxOmrJUvfZXXMrSMraMrWM7h8vujlxhmfMXU5ZCkiOVttTIPXl0rhlOmQbETU3gIby+DxM4BZ3JcgtY6fTScqpcnyO1vO7je.+dYCzIA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VALO.......f.A.........PC..................P.3C"
 						}
 ,
 						"snapshotlist" : 						{
@@ -150,7 +163,7 @@
 										"isbase64" : 1,
 										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
 										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "553.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDA3HdZWlTAKkvv.Qu6WQmbUAZJBnyPwQQwwQPYrndN1tPyXHolt0A3q2Msfsh4Pm2tuMa1212vq1rV48MXykFcHi21m4A5XShTuJjUfKacA6pQmLb10EnYtDiSyADIxbuwoBsFTyLIPHaJrD8N06E4pTj4M1nQqQon1dmV7gBRBYTiu+0Ghj6f.J3r5v6D4aOjZlXyzIOeixD+oiJj0Mf4kIrh0.BV2LrnPC2BYXZYG+GUTFr+w9k5V5SLZrioARjk6n4+klt2QWwt8c.CYMe7IF6ZgFiRkKIlVcaeY4YPeduKZT1i.jsuz7+9Pj1lXguJn06VRXMYj5FL7188C76Q8l2sYUQn3CoRtSfk+pZNuKRsPdpQcjxeWl31Ss39T14TI.9fNA1TVUTrPQxl23rO4SFDpKYw1rpn2NXRFDvuLvmMZXUK4cH+QELnF1sFddMrWMreMbvd32RSQ9SvFrJcsKxwGIWWnDHL2ZVQ5y49VAUW73DN8OkrPtfFVQWnSaGkZlaUUh57eW9nS9Ayg8B2HA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VAnN.......f.A.........PC..................P.uC"
+										"blob" : "562.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDAbIdZWlTAKkvv.Qu6WQmbUAaZATlghihhiifxXQ4brcglwPRMcqC3WuannsB4Pm2tu2tI612fq1rV48EXKjFcDi21m4A5DSpTuJhUhKacI6pgmLX50knYlDSxJ.DIxBuQYBsFTSMoPDaBrD8N06E4pLj4MxnQqQon1dmV7tBRiXTiu+0GhkeCATvY0g2IJ19apohMSF+7MJSxGNpHVX.yKWXEqADrt2v7RMbKjiY653QTw4v9K6OpaoOInwNhdPh7BGM++zTcGThc6B.iXMu7wF6ZgFiyjKIlV8a2u5zwuSCUOBP9dkE++dnQarE9rj1taiXcZG5y8Cn561qWSURcCU7187C76Rp3ggMTEih2kJ42Bb2eslO84YVnHynNXIrPl5VYs39T1YjD.ePmBa1oJNQnnM.uwYexmLHTKY917pn290ubQ.uefOa3fpVxOmrJUvfZXXMrSMraMrWM7h8vujlxhmfMXU5ZCkiOVttTIPXl0rhlOmQbETU3gIby+DxM4BZ3JcgtY6fTScqpcnyO1vO7je.+dYCzIA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VALO.......f.A.........PC..................P.3C"
 									}
 ,
 									"fileref" : 									{
@@ -183,7 +196,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.0, 498.0, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "7 0.333333"
+					"text" : "7 0.083333"
 				}
 
 			}
@@ -376,10 +389,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.0, 621.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -393,10 +402,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 2.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -622,6 +627,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 424.0, 305.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in~ 2"
 				}
@@ -772,6 +781,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 1 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 453.5, 282.5, 549.5, 282.5 ],
 					"order" : 1,
@@ -860,17 +876,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
 					"source" : [ "obj-37", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"midpoints" : [ 569.5, 220.5, 718.5, 220.5 ],
-					"order" : 0,
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -916,7 +931,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"midpoints" : [ 493.5, 625.5, 315.25, 625.5, 315.25, 559.0, 137.0, 559.0 ],
+					"midpoints" : [ 384.0, 625.5, 315.25, 625.5, 315.25, 559.0, 137.0, 559.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -971,33 +986,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-49" : [ "vst~", "vst~", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "gizmo_loadme.maxpat",
-				"bootpath" : "C74:/help/msp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "transratio.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MAutoPitch_20170616.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
