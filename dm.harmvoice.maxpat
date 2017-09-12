@@ -57,22 +57,22 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 549.0, 408.0, 96.0, 22.0 ],
+					"patching_rect" : [ 549.0, 408.0, 109.0, 22.0 ],
 					"style" : "",
-					"text" : "scale -12 12 0 1"
+					"text" : "scale -12. 12. 0. 1."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 689.0, 295.0, 39.0, 32.0 ],
-					"presentation_rect" : [ 591.0, 294.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -85,10 +85,10 @@
 					"clickthrough" : 0,
 					"id" : "obj-49",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 14,
+					"numinlets" : 2,
+					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "", "list", "int", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
 					"patching_rect" : [ 484.0, 533.5, 301.0, 82.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 100.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, "MAutoPitch.component", ";" ],
@@ -126,7 +126,7 @@
 							"isbase64" : 1,
 							"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
 							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "545.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDAXHdZWlTAKkvv.Qu6WQmbUEZJJJyPwQQwgQPYrndN1tPyXHoltkA3q2MTvVfdHya22ta1W5q6cqVn7VB1boQGx3M7YdfN1jH0yCYE3rKukcWuy5N99BzLQhwo4.hDYtW+TgVCpwlDHjMBlgdm68tbdJx75azn0nTzXeRK9VAIgLZvO+wvH4FHfBtnJ7IQ958oFKVMZvaOnLw+3nBYsBXdYBqXAff0sCSKzviPFltchmPEkA6tr+odjNhQisOsPhrbGM+PZpuiZwt9K.CY0u7AF6BgFiRkyHFdcpW.HaGc9gCmzy.K7aA8jtlDScFotFCuQa+.+q6zoCuU8phPw2Rkbi.296o9NNM0B4oF0Qp8KYh6s4RtOkcBUBfC0IvpsUEEKTjT4091k7UCBUkLccVYzm6MF2Dv6D3y50sbj7ljmnDFTAaUAupBdcErcE7lcvkRSQ9qvJrLckywwGIWTnDHLwZlS5y43lCkMdbBm9GQ1FWPM6mKzosiRM18TsE07Tmcuy9CXpBHrpD.r.A...B.TA.Z.fH.7B.z.PN.DD.FAvR..E.XEf3........BD..........M...................AbN"
+							"blob" : "553.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDA3HdZWlTAKkvv.Qu6WQmbUAZJBnyPwQQwwQPYrndN1tPyXHolt0A3q2Msfsh4Pm2tuMa1212vq1rV48MXykFcHi21m4A5XShTuJjUfKacA6pQmLb10EnYtDiSyADIxbuwoBsFTyLIPHaJrD8N06E4pTj4M1nQqQon1dmV7gBRBYTiu+0Ghj6f.J3r5v6D4aOjZlXyzIOeixD+oiJj0Mf4kIrh0.BV2LrnPC2BYXZYG+GUTFr+w9k5V5SLZrioARjk6n4+klt2QWwt8c.CYMe7IF6ZgFiRkKIlVcaeY4YPeduKZT1i.jsuz7+9Pj1lXguJn06VRXMYj5FL7188C76Q8l2sYUQn3CoRtSfk+pZNuKRsPdpQcjxeWl31Ss39T14TI.9fNA1TVUTrPQxl23rO4SFDpKYw1rpn2NXRFDvuLvmMZXUK4cH+QELnF1sFddMrWMreMbvd32RSQ9SvFrJcsKxwGIWWnDHL2ZVQ5y49VAUW73DN8OkrPtfFVQWnSaGkZlaUUh57eW9nS9Ayg8B2HA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VAnN.......f.A.........PC..................P.uC"
 						}
 ,
 						"snapshotlist" : 						{
@@ -150,7 +150,7 @@
 										"isbase64" : 1,
 										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
 										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "545.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDAXHdZWlTAKkvv.Qu6WQmbUEZJJJyPwQQwgQPYrndN1tPyXHoltkA3q2MTvVfdHya22ta1W5q6cqVn7VB1boQGx3M7YdfN1jH0yCYE3rKukcWuy5N99BzLQhwo4.hDYtW+TgVCpwlDHjMBlgdm68tbdJx75azn0nTzXeRK9VAIgLZvO+wvH4FHfBtnJ7IQ958oFKVMZvaOnLw+3nBYsBXdYBqXAff0sCSKzviPFltchmPEkA6tr+odjNhQisOsPhrbGM+PZpuiZwt9K.CY0u7AF6BgFiRkyHFdcpW.HaGc9gCmzy.K7aA8jtlDScFotFCuQa+.+q6zoCuU8phPw2Rkbi.296o9NNM0B4oF0Qp8KYh6s4RtOkcBUBfC0IvpsUEEKTjT4091k7UCBUkLccVYzm6MF2Dv6D3y50sbj7ljmnDFTAaUAupBdcErcE7lcvkRSQ9qvJrLckywwGIWTnDHLwZlS5y43lCkMdbBm9GQ1FWPM6mKzosiRM18TsE07Tmcuy9CXpBHrpD.r.A...B.TA.Z.fH.7B.z.PN.DD.FAvR..E.XEf3........BD..........M...................AbN"
+										"blob" : "553.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXWYWYxMWZu4lDgUWalIQSgUGURzTYrQ1UDUlYgUGaz8TDA3HdZWlTAKkvv.Qu6WQmbUAZJBnyPwQQwwQPYrndN1tPyXHolt0A3q2Msfsh4Pm2tuMa1212vq1rV48MXykFcHi21m4A5XShTuJjUfKacA6pQmLb10EnYtDiSyADIxbuwoBsFTyLIPHaJrD8N06E4pTj4M1nQqQon1dmV7gBRBYTiu+0Ghj6f.J3r5v6D4aOjZlXyzIOeixD+oiJj0Mf4kIrh0.BV2LrnPC2BYXZYG+GUTFr+w9k5V5SLZrioARjk6n4+klt2QWwt8c.CYMe7IF6ZgFiRkKIlVcaeY4YPeduKZT1i.jsuz7+9Pj1lXguJn06VRXMYj5FL7188C76Q8l2sYUQn3CoRtSfk+pZNuKRsPdpQcjxeWl31Ss39T14TI.9fNA1TVUTrPQxl23rO4SFDpKYw1rpn2NXRFDvuLvmMZXUK4cH+QELnF1sFddMrWMreMbvd32RSQ9SvFrJcsKxwGIWWnDHL2ZVQ5y49VAUW73DN8OkrPtfFVQWnSaGkZlaUUh57eW9nS9Ayg8B2HA.KP...f..U.fF.HB.u..M.jC.AAfQ.rD.PA.VAnN.......f.A.........PC..................P.uC"
 									}
 ,
 									"fileref" : 									{
@@ -183,7 +183,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.0, 498.0, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "7 1."
+					"text" : "7 0.333333"
 				}
 
 			}
@@ -280,6 +280,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -375,6 +376,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.0, 621.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -388,6 +393,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 2.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -613,10 +622,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 424.0, 305.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in~ 2"
 				}

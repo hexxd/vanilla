@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 733.0 ],
+		"rect" : [ 34.0, 79.0, 882.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "list" ],
+					"patching_rect" : [ 29.0, 204.0, 61.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"notebase" : 0,
+						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
+						"pitchdetection" : 1,
+						"quality" : "basic",
+						"reportlatency" : 0,
+						"retune" : 1,
+						"use_16bit" : [ 1 ],
+						"windowsize" : [ 64 ]
+					}
+,
+					"style" : "",
+					"text" : "retune~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -1065,7 +1089,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.5, 385.0, 34.0, 22.0 ],
+					"patching_rect" : [ 88.5, 417.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "ftom"
 				}
@@ -1080,7 +1104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 88.5, 351.0, 50.0, 22.0 ],
+					"patching_rect" : [ 88.5, 383.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1096,7 +1120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 88.5, 324.0, 56.0, 22.0 ],
+					"patching_rect" : [ 88.5, 356.0, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -1405,6 +1429,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"order" : 3,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"order" : 2,
 					"source" : [ "obj-2", 0 ]
@@ -1673,6 +1705,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-65", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-66", 0 ]
 				}
@@ -1798,14 +1837,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16" : [ "live.dial[2]", "freq", 0 ],
-			"obj-26" : [ "live.dial[3]", "amp", 0 ],
+			"obj-40.3::obj-49" : [ "vst~[2]", "vst~", 0 ],
+			"obj-40.5::obj-49" : [ "vst~[4]", "vst~", 0 ],
+			"obj-40.14::obj-49" : [ "vst~[13]", "vst~", 0 ],
+			"obj-40.2::obj-49" : [ "vst~[1]", "vst~", 0 ],
+			"obj-40.4::obj-49" : [ "vst~[3]", "vst~", 0 ],
+			"obj-40.9::obj-49" : [ "vst~[8]", "vst~", 0 ],
 			"obj-64::obj-22" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-16" : [ "live.dial[2]", "freq", 0 ],
+			"obj-30" : [ "live.dial[1]", "dry", 0 ],
+			"obj-40.12::obj-49" : [ "vst~[11]", "vst~", 0 ],
+			"obj-40.13::obj-49" : [ "vst~[12]", "vst~", 0 ],
+			"obj-40.1::obj-49" : [ "vst~", "vst~", 0 ],
+			"obj-29" : [ "live.dial[4]", "Q", 0 ],
+			"obj-22" : [ "live.dial", "harm", 0 ],
+			"obj-40.7::obj-49" : [ "vst~[6]", "vst~", 0 ],
+			"obj-40.8::obj-49" : [ "vst~[7]", "vst~", 0 ],
+			"obj-40.11::obj-49" : [ "vst~[10]", "vst~", 0 ],
 			"obj-19" : [ "live.gain~", "master", 0 ],
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-30" : [ "live.dial[1]", "dry", 0 ],
-			"obj-22" : [ "live.dial", "harm", 0 ],
-			"obj-29" : [ "live.dial[4]", "Q", 0 ]
+			"obj-26" : [ "live.dial[3]", "amp", 0 ],
+			"obj-40.6::obj-49" : [ "vst~[5]", "vst~", 0 ],
+			"obj-40.10::obj-49" : [ "vst~[9]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1826,6 +1879,13 @@
 				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"patcherrelativepath" : "../../../Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MAutoPitch_20170616.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../Documents/Max 7/Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
